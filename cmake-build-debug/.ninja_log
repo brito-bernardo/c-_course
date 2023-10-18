@@ -1,0 +1,16 @@
+# ninja log v5
+18	1099	1697472109447914494	CMakeFiles/C___projeto.dir/chuta.cpp.o	34832e6a89f9953f
+18	1085	1697472109430499895	CMakeFiles/C___projeto.dir/imprime_erros.cpp.o	77ca57ff9408f221
+18	1095	1697472109443525929	CMakeFiles/C___projeto.dir/imprime_palavra.cpp.o	8cbf77bedb0889db
+0	74	1697642928939492634	build.ninja	1ce7dc779ca19d10
+19	1084	1697472109430525810	CMakeFiles/C___projeto.dir/sorteia_palavra.cpp.o	66aad22d28fd5c41
+0	444	1697468222463340298	CMakeFiles/C___projeto.dir/main.cpp.o	fc026229268845b7
+18	1110	1697472109458804244	CMakeFiles/C___projeto.dir/forca.cpp.o	6b5436e79b70a86e
+6	447	1697469397890614503	CMakeFiles/C___projeto.dir/imprime_cabecalho.cpp.o	7651d5d02d5d0d58
+1	806	1697468485812196633	CMakeFiles/C___projeto.dir/adiciona_palavra.cpp.o	239ef3f260b31f97
+1110	1290	1697472109639407885	C___projeto	4032baf041156a12
+800	1112	1697468486117897669	CMakeFiles/C___projeto.dir/nao_enforcou.cpp.o	cf4e88f665c69ff6
+792	1194	1697468486201552625	CMakeFiles/C___projeto.dir/letra_existe.cpp.o	b4ba491f2746fe0
+19	1093	1697472109442518513	CMakeFiles/C___projeto.dir/nao_acertou.cpp.o	a04f1637734af97f
+791	1272	1697468486280462829	CMakeFiles/C___projeto.dir/le_arquivo.cpp.o	e8dc825db68332a1
+801	1290	1697468486298945819	CMakeFiles/C___projeto.dir/salva_arquivo.cpp.o	d5a9fb115c0d4c7a
