@@ -5,6 +5,7 @@
 #include "letra_existe.h"
 #include "chuta.h"
 
+//Funtion chuta getting paramethers chutou and chutes_errados as reference
 void chuta(std::map<char, bool>& chutou, std::vector<char>& chutes_errados ){
     std::cout << "Seu chute: ";
     char chute;
