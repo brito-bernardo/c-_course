@@ -14,11 +14,9 @@
 #include "salva_arquivo.h"
 #include "sorteia_palavra.h"
 
-using namespace std;
-
-string palavra_secreta; 
-map<char, bool> chutou;
-vector<char> chutes_errados;
+static std::string palavra_secreta;
+static std::map<char, bool> chutou;
+static std::vector<char> chutes_errados;
 
 
 
@@ -33,24 +31,24 @@ int main () {
 
         imprime_palavra(palavra_secreta, chutou);
 
-        chuta(chutou, chutes_errados);
+        chuta(chutou, chutes_errados, palavra_secreta);
     }
 
-    cout << "Fim de jogo!" << endl;
-    cout << "A palavra secreta era: " << palavra_secreta << endl;
+    std::cout << "Fim de jogo!" << std::endl;
+    std::cout << "A palavra secreta era: " << palavra_secreta << std::endl;
     if(nao_acertou(palavra_secreta, chutou)){
-        cout << "Você perdeu! Tente novamente!" << endl;
+        std::cout << "Você perdeu! Tente novamente!" << std::endl;
     }
     else{
-        cout << "Parabéns! Você acertou a palavra secreta!" << endl;
+        std::cout << "Parabéns! Você acertou a palavra secreta!" << std::endl;
 
-        cout << "Você deseja adicionar uma nova palavra ao banco? (S/N) ";
+        std::cout << "Você deseja adicionar uma nova palavra ao banco? (S/N) ";
         char resposta;
-        cin >> resposta;
+        std::cin >> resposta;
         if(resposta == 'S'){
             adiciona_palavra();
         }
     }
-    
-    cin.get();
+
+    std::cin.get();
 }
